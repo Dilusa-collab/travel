@@ -4,23 +4,137 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travellers</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">>
 </head>
 <body>
-   <header>
     <header>
-        <div class="logo">
-            <a href="#"><img src="logo.jpg" alt="logo"></a>
+        <div class="container">
+            <div class="logo">
+                <h1>Travellers</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav class="nav-menu">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Link</a></li>
-            </ul>
-        </nav>
     </header>
-   </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Join our community of travellers
+            </h1>
+            <p>Discover amazing places and create unforgettable memories</p>
+            <a href="#destinations" class="btn">Explore Destinations</a>
+        </div>
+    </section>
+
+    <section id="destinations" class="destinations">
+        <div class="container">
+            <h2 class="section-title">Popular Destinations</h2>
+            <div class="destination-grid">
+                <div class="destination-card">
+                    <img src="abc.lpg.webp" alt="abc">
+                    <div class="destination-info">
+                        <h3>Annapurna Base Camp
+                        </h3>
+                        <p>The Annapurna Base Camp Trek, also known as the Annapurna Sanctuary Trek, is one of the most popular treks in Nepal. It takes you through diverse landscapes, including forests, terraced fields, and villages, offering spectacular views of the Annapurna and Dhaulagiri Himalayan ranges and surrounding views.</p>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="tilicho.jpg" alt="Tilicho-lake">
+                    <div class="destination-info">
+                        <h3>Tilicho-lake</h3>
+                        <p>Tilicho Lake is renowned for the world's highest lake, which is located at 4,919 meters in the Manang District in Nepal's Annapurna area. It is titled 'Frozen Lake' since it is frozen for most of the year</p>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="poonhill.jpg" alt="Poon-Hill">
+                    <div class="destination-info">
+                        <h3>Poon-Hill</h3>
+                        <p>Poon Hill (पून हिल) original name Pun Hill is a hill station overlooking the Annapurna Massif range and Dhaulagiri mountain range, located on border of Myagdi District and Kaski District in Gandaki Province of Nepal. This lookout is the key viewpoint in the Ghorepani Poon Hill trek.</p>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="lamjung.jpg" alt="lamjung">
+                    <div class="destination-info">
+                        <h3>Ghale Gaun(Lamjung)</h3>
+                        <p>Ghale Gaun is a beautiful village located in the lamjung district of Nepal offering a range of interesting things to see and experience. Ghale Gaun is a popular scenic tourist destination which lies in Khowalsothar rural municipality.  https://nepalnews.com/s/travel-tourism/every-facts-you-need-to-know-about-the-lamjung-district/</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Travellers</h2>
+                    <p>We are here to create a healthy community of like minded people.Get to know people from all the places and make new friends for making your journey enjoyable.</p>
+                </div>
+                <div class="about-image">
+                    <img src="tourist.jpg" alt="Travel Experience">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h3>Email</h3>
+                        <p>travellers.com</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Phone</h3>
+                        <p>+977-9812345678</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Address</h3>
+                        <p>Itahari-08,Biratnagar line</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/" class="social-link">Facebook</a>
+                        <a href="https://www.instagram.com/accounts/login/?hl=en" class="social-link">Instagram</a>
+                        <a href="https://web.whatsapp.com/" class="social-link">Whatsapp</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">FAQ</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
